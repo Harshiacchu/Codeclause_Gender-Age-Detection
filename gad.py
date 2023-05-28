@@ -32,9 +32,9 @@ args=parser.parse_args()
 fp="opencv_face_detector.pbtxt"
 fm="opencv_face_detector_uint8.pb"
 ap="age_deploy.prototxt"
-am="age_net.caffemodel"
+am="age_net.pdf"
 gp="gender_deploy.prototxt"
-gm="gender_net.caffemodel"
+gm="gender_net.pdf"
 
 MODEL_MEAN_VALUES=(78.4263377603, 87.7689143744, 114.895847746)
 al=['(0-2)', '(4-6)', '(8-12)', '(15-20)', '(25-32)', '(38-43)', '(48-53)', '(60-100)']
